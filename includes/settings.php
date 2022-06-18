@@ -303,7 +303,7 @@ function edd_compare_products_localize_meta( $fields ) {
 	$fields['_edd_button_behavior'] = __( 'EDD Button Behavior', EDD_Compare_Products_ID );
 	$fields['_edd_commisions_enabled'] = __( 'EDD Commissions Enabled', EDD_Compare_Products_ID );
 	$fields['_edd_download_earnings'] = sprintf( __( '%s Earnings', EDD_Compare_Products_ID ), edd_get_label_singular() );
-	$fields['_edd_download_limit'] = sprintf( __( '% Limit', EDD_Compare_Products_ID ), edd_get_label_singular() );
+	$fields['_edd_download_limit'] = sprintf( __( '%s Limit', EDD_Compare_Products_ID ), edd_get_label_singular() );
 	$fields['_edd_download_sales'] = sprintf( __( '%s Sales', EDD_Compare_Products_ID ), edd_get_label_singular() );
 	$fields['_edd_download_use_git'] = sprintf( __( '%s Grabs File from Git', EDD_Compare_Products_ID ), edd_get_label_singular() );
 	$fields['_edd_external_product_button'] = __( 'External Button Label', EDD_Compare_Products_ID );
